@@ -60,7 +60,8 @@ class _searchScreenState extends State<searchScreen> {
                 right: 20,
                 top: 10,
               ),
-              child: Row(
+              child: 
+              Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Align(

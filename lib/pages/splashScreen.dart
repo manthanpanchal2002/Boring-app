@@ -46,9 +46,7 @@ class _splashScreenState extends State<splashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return PopScope(
-      canPop: false,
-      child: GetMaterialApp(
+    return GetMaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
             backgroundColor: Colors.white,
@@ -92,8 +90,7 @@ class _splashScreenState extends State<splashScreen> {
                 ],
               ),
             )),
-      ),
-    );
+      );
   }
 
   Future<void> startAnimation() async {
